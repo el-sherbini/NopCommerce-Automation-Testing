@@ -13,22 +13,22 @@ public class LoginStepDefinition {
 
     @Given("user navigates to login page")
     public void navigateLoginPage() {
-        login.loginNavigatePF.click();
+        login.loginNavigateBtn.click();
     }
 
-    @When("^user enters email \"(.*)\" and password \"(.*)\"$")
+    @When("user enters email {string} and password {string}")
     public void enterData(String email, String password) {
-        login.emailPF.sendKeys(email);
-        login.passwordPF.sendKeys(password);
+        login.emailTxtFld.sendKeys(email);
+        login.passwordTxtFld.sendKeys(password);
     }
 
     @And("user click on login button")
     public void clickLoginButton() {
-        login.loginBtnPF.click();
+        login.loginBtn.click();
     }
 
     @Then("user log in successfully") @And("user go to home page")
     public void loginSuccessfully() {
-        Assert.assertTrue(login.logoutBtnPF.isDisplayed());
+        Assert.assertTrue(login.logoutBtn.isDisplayed());
     }
 }

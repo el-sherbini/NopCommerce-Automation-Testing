@@ -1,6 +1,5 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,17 +14,17 @@ public class LoginPage {
     }
 
     @FindBy(className = "ico-login")
-    public WebElement loginNavigatePF;
+    public WebElement loginNavigateBtn;
 
     @FindBy(id = "Email")
-    public WebElement emailPF;
+    public WebElement emailTxtFld;
 
     @FindBy(id = "Password")
-    public WebElement passwordPF;
+    public WebElement passwordTxtFld;
 
     @FindBy(className = "login-button")
-    public WebElement loginBtnPF;
+    public WebElement loginBtn;
 
     @FindBy(className = "ico-logout")
-    public WebElement logoutBtnPF;
+    public WebElement logoutBtn;
 }

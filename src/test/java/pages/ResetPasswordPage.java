@@ -15,14 +15,14 @@ public class ResetPasswordPage {
     }
 
     @FindBy(className = "forgot-password")
-    public WebElement forgotPasswordPF;
+    public WebElement forgotPasswordBtn;
 
     @FindBy(id = "Email")
-    public WebElement emailPF;
+    public WebElement emailTxtFld;
 
     @FindBy(className = "password-recovery-button")
-    public WebElement recoveryBtnPF;
+    public WebElement recoveryBtn;
 
     @FindBy(className = "content")
-    public WebElement messageBodyPF;
+    public WebElement resultMessageTxt;
 }

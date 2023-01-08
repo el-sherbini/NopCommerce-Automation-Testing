@@ -13,26 +13,26 @@ public class RegistrationStepDefinition {
 
     @Given("user navigates to registration page")
     public void navigateRegistrationPage() {
-        register.registerNavigatePF.click();
+        register.registerNavigateBtn.click();
     }
 
     @When("user enters valid data")
     public void enterValidData() {
-        register.firstNamePF.sendKeys("test2");
-        register.lastNamePF.sendKeys("test2");
-        register.emailPF.sendKeys("test2@gmail.com");
-        register.passwordPF.sendKeys("123456");
-        register.confirmPasswordPF.sendKeys("123456");
+        register.firstNameTxtFld.sendKeys("test2");
+        register.lastNameTxtFld.sendKeys("test2");
+        register.emailTxtFld.sendKeys("test2@gmail.com");
+        register.passwordTxtFld.sendKeys("123456");
+        register.confirmPasswordTxtFld.sendKeys("123456");
     }
 
     @And("user click on register button")
     public void clickRegisterButton() {
-        register.registerBtnPF.click();
+        register.registerBtn.click();
     }
 
     @Then("user registered successfully")
     public void registeredSuccessfully() {
-        Assert.assertTrue("User registered successfully", register.resultPF.getText().contains("Your registration completed"));
+        Assert.assertTrue("User registered successfully", register.resultTxt.getText().contains("Your registration completed"));
     }
 
 }

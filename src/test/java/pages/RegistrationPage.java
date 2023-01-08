@@ -14,26 +14,26 @@ public class RegistrationPage {
     }
 
     @FindBy(className = "ico-register")
-    public WebElement registerNavigatePF;
+    public WebElement registerNavigateBtn;
 
     @FindBy(id = "FirstName")
-    public WebElement firstNamePF;
+    public WebElement firstNameTxtFld;
 
     @FindBy(id = "LastName")
-    public WebElement lastNamePF;
+    public WebElement lastNameTxtFld;
 
     @FindBy(id = "Email")
-    public WebElement emailPF;
+    public WebElement emailTxtFld;
 
     @FindBy(id = "Password")
-    public WebElement passwordPF;
+    public WebElement passwordTxtFld;
 
     @FindBy(id = "ConfirmPassword")
-    public WebElement confirmPasswordPF;
+    public WebElement confirmPasswordTxtFld;
 
     @FindBy(id = "register-button")
-    public WebElement registerBtnPF;
+    public WebElement registerBtn;
 
     @FindBy(className = "result")
-    public WebElement resultPF;
+    public WebElement resultTxt;
 }
