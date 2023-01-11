@@ -12,7 +12,6 @@ public class SearchProductStepDefinition {
 
     @When("user search for a product {string}")
     public void searchProduct(String product) {
-        System.out.println(product);
         searchProduct.searchTxtFld.sendKeys(product);
         searchProduct.searchBtn.click();
     }
