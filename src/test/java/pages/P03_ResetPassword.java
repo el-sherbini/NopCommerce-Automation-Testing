@@ -5,26 +5,24 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class P03_ResetPassword {
+
     WebDriver driver;
 
-    public LoginPage(WebDriver driver) {
+    public P03_ResetPassword(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(className = "ico-login")
-    public WebElement loginNavigateBtn;
+    @FindBy(className = "forgot-password")
+    public WebElement forgotPasswordBtn;
 
     @FindBy(id = "Email")
     public WebElement emailTxtFld;
 
-    @FindBy(id = "Password")
-    public WebElement passwordTxtFld;
+    @FindBy(className = "password-recovery-button")
+    public WebElement recoveryBtn;
 
-    @FindBy(className = "login-button")
-    public WebElement loginBtn;
-
-    @FindBy(className = "ico-logout")
-    public WebElement logoutBtn;
+    @FindBy(className = "content")
+    public WebElement resultMessageTxt;
 }

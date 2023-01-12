@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SelectCategoriesPage {
+public class P06_SelectCategories {
 
     WebDriver driver;
 
-    public SelectCategoriesPage(WebDriver driver) {
+    public P06_SelectCategories(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

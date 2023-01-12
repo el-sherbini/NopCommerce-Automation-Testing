@@ -5,11 +5,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import pages.LoginPage;
+import pages.P02_Login;
 
-public class LoginStepDefinition {
+public class SD02_Login {
 
-    LoginPage login = new LoginPage(Hooks.driver);
+    P02_Login login = new P02_Login(Hooks.driver);
 
     @Given("user navigates to login page")
     public void navigateLoginPage() {

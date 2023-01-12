@@ -3,19 +3,19 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import pages.FilterColorPage;
+import pages.P07_FilterColor;
 
-public class FilterColorStepDefinition {
+public class SD07_FilterColor {
 
-    FilterColorPage filterColor = new FilterColorPage(Hooks.driver);
+    P07_FilterColor filterColor = new P07_FilterColor(Hooks.driver);
 
     @And("user selects color")
     public void changeColor() {
         filterColor.colorInput.click();
     }
 
-    @Then("user get the result data with the color chosen")
-    public void getProducts() {
+    @Then("user get the result data with the chosen color")
+    public void checkResult() {
         Assert.assertTrue(Hooks.driver.getCurrentUrl().contains("specs=15"));
     }
 }

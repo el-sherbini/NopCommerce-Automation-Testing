@@ -19,6 +19,6 @@ public class Hooks {
     @AfterAll
     public static void closeBrowser() throws InterruptedException {
         Thread.sleep(3000);
-        //driver.quit();
+        driver.quit();
     }
 }

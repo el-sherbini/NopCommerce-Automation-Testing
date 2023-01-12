@@ -4,11 +4,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import pages.ResetPasswordPage;
+import pages.P03_ResetPassword;
 
-public class ResetPasswordStepDefinition {
+public class SD03_ResetPassword {
 
-    ResetPasswordPage resetPassword = new ResetPasswordPage(Hooks.driver);
+    P03_ResetPassword resetPassword = new P03_ResetPassword(Hooks.driver);
 
     @And("user clicks on Forgot password? button")
     public void navigateRegistrationPage() {

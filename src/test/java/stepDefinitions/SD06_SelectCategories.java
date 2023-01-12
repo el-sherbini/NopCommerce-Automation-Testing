@@ -5,11 +5,11 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.interactions.Actions;
-import pages.SelectCategoriesPage;
+import pages.P06_SelectCategories;
 
-public class SelectCategoriesStepDefinition {
+public class SD06_SelectCategories {
 
-    SelectCategoriesPage selectCategories = new SelectCategoriesPage(Hooks.driver);
+    P06_SelectCategories selectCategories = new P06_SelectCategories(Hooks.driver);
     Actions action = new Actions(Hooks.driver);
 
     @When("user hover on a main category")

@@ -5,11 +5,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import pages.RegistrationPage;
+import pages.P01_Registration;
 
-public class RegistrationStepDefinition {
+public class SD01_Registration {
 
-    RegistrationPage register = new RegistrationPage(Hooks.driver);
+    P01_Registration register = new P01_Registration(Hooks.driver);
 
     @Given("user navigates to registration page")
     public void navigateRegistrationPage() {

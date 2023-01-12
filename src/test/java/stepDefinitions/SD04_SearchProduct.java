@@ -1,14 +1,13 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import pages.SearchProductPage;
+import pages.P04_SearchProduct;
 
-public class SearchProductStepDefinition {
+public class SD04_SearchProduct {
 
-    SearchProductPage searchProduct = new SearchProductPage(Hooks.driver);
+    P04_SearchProduct searchProduct = new P04_SearchProduct(Hooks.driver);
 
     @When("user search for a product {string}")
     public void searchProduct(String product) {

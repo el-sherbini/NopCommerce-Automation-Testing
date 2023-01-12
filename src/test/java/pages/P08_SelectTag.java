@@ -5,15 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class FilterColorPage {
-
+public class P08_SelectTag {
     WebDriver driver;
 
-    public FilterColorPage(WebDriver driver) {
+    public P08_SelectTag(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//li[@class=\"item color-item\"]//input[@id=\"attribute-option-15\"]")
-    public WebElement colorInput;
+    @FindBy(xpath = "//div[@class=\"tags\"]//li[2]//a")
+    public WebElement tag;
 }

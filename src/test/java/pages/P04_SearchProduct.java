@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SearchProductPage {
+public class P04_SearchProduct {
 
     WebDriver driver;
 
-    public SearchProductPage(WebDriver driver) {
+    public P04_SearchProduct(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
