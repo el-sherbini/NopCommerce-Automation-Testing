@@ -18,9 +18,9 @@ public class RegistrationStepDefinition {
 
     @When("user enters valid data")
     public void enterValidData() {
-        register.firstNameTxtFld.sendKeys("test2");
-        register.lastNameTxtFld.sendKeys("test2");
-        register.emailTxtFld.sendKeys("test2@gmail.com");
+        register.firstNameTxtFld.sendKeys("mohamed");
+        register.lastNameTxtFld.sendKeys("emad");
+        register.emailTxtFld.sendKeys("mEmad@gmail.com");
         register.passwordTxtFld.sendKeys("123456");
         register.confirmPasswordTxtFld.sendKeys("123456");
     }

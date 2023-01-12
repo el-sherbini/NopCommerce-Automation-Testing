@@ -14,10 +14,10 @@ public class SelectCategoriesPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//ul[@class=\"top-menu notmobile\"]//li")
+    @FindBy(xpath = "//a[@href=\"/apparel\"]")
     public WebElement mainCategory;
 
-    @FindBy(xpath = "//ul[@class=\"sublist first-level\"]//li[2]//a")
+    @FindBy(xpath = "//a[@href=\"/shoes\"]")
     public WebElement subCategory;
 
     @FindBy(xpath = "//div[@class=\"page-title\"]//h1")

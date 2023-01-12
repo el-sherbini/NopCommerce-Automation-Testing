@@ -6,11 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="62ac0872-b90f-424e-9b21-2fad0acd0e50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01-Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F02-Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03-ResetPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_ResetPassword.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04-SearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_SearchProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05-SwitchCurrencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_SwitchCurrencies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_SearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_SearchProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_SwitchCurrencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_SwitchCurrencies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_SelectCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_SelectCategories.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SelectCategoriesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SelectCategoriesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegistrationStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegistrationStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Logged user select different Categories">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Logged user filter with color">
     <configuration name="Feature: F01_Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" />
@@ -67,14 +68,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: F05-SwitchCurrencies" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: F06_SelectCategories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F05-SwitchCurrencies.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F06_SelectCategories.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppAutomationTesting" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F05-SwitchCurrencies" />
+      <option name="SUGGESTED_NAME" value="Feature: F06_SelectCategories" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -86,15 +87,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Logged User search for a product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: F07_FilterColor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F04-SearchProduct.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_FilterColor.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppAutomationTesting" />
-      <option name="NAME_FILTER" value="^Logged User search for a product$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logged User search for a product$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Logged User search for a product" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F07_FilterColor" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -106,15 +106,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Logged User switch between currencies US-Euro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Logged user filter with color" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F05-SwitchCurrencies.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_FilterColor.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppAutomationTesting" />
-      <option name="NAME_FILTER" value="^Logged User switch between currencies US\-Euro$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logged User switch between currencies US\-Euro$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Logged User switch between currencies US-Euro" />
+      <option name="NAME_FILTER" value="^Logged user filter with color$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logged user filter with color$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Logged user filter with color" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Logged user select different Categories" />
+        <item itemvalue="Cucumber Java.Scenario: Logged user filter with color" />
         <item itemvalue="Cucumber Java.Feature: F01_Registration" />
-        <item itemvalue="Cucumber Java.Feature: F05-SwitchCurrencies" />
-        <item itemvalue="Cucumber Java.Scenario: Logged User search for a product" />
-        <item itemvalue="Cucumber Java.Scenario: Logged User switch between currencies US-Euro" />
+        <item itemvalue="Cucumber Java.Feature: F07_FilterColor" />
+        <item itemvalue="Cucumber Java.Feature: F06_SelectCategories" />
+        <item itemvalue="Cucumber Java.Scenario: Logged user select different Categories" />
       </list>
     </recent_temporary>
   </component>
