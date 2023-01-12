@@ -4,4 +4,4 @@ Feature: User could register with valid data
     Given user navigates to registration page
     When user enters valid data
     And user click on register button
-    Then user register successfully
+    Then user registered successfully

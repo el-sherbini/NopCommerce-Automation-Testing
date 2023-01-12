@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="62ac0872-b90f-424e-9b21-2fad0acd0e50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04-SearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04-SearchProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SearchProductStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SearchProductStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01-Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F02-Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03-ResetPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_ResetPassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04-SearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_SearchProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05-SwitchCurrencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_SwitchCurrencies.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +47,15 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: F05-SwitchCurrencies">
-    <configuration name="Feature: F01-Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Logged user select different Categories">
+    <configuration name="Feature: F01_Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01-Registration.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppAutomationTesting" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F01-Registration" />
+      <option name="SUGGESTED_NAME" value="Feature: F01_Registration" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -123,15 +126,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User register with valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Logged user select different Categories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01-Registration.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F06_SelectCategories.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppAutomationTesting" />
-      <option name="NAME_FILTER" value="^User register with valid data$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User register with valid data$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User register with valid data" />
+      <option name="NAME_FILTER" value="^Logged user select different Categories$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logged user select different Categories$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Logged user select different Categories" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Logged user select different Categories" />
+        <item itemvalue="Cucumber Java.Feature: F01_Registration" />
         <item itemvalue="Cucumber Java.Feature: F05-SwitchCurrencies" />
         <item itemvalue="Cucumber Java.Scenario: Logged User search for a product" />
         <item itemvalue="Cucumber Java.Scenario: Logged User switch between currencies US-Euro" />
-        <item itemvalue="Cucumber Java.Scenario: User register with valid data" />
-        <item itemvalue="Cucumber Java.Feature: F01-Registration" />
       </list>
     </recent_temporary>
   </component>
