@@ -13,7 +13,7 @@ public class SD09_AddShoppingCart {
     P09_AddShoppingCart addShoppingCart = new P09_AddShoppingCart(Hooks.driver);
     List<String> titles = new ArrayList<String>();
 
-    @And("user add a product")
+    @And("user add a product to shopping cart")
     public void addProduct() throws InterruptedException {
         titles.add(addShoppingCart.productTitle.getText());
         addShoppingCart.addToCartBtn.click();
@@ -21,7 +21,7 @@ public class SD09_AddShoppingCart {
         addShoppingCart.addToCartPageBtn.click();
     }
 
-    @And("user add another product")
+    @And("user add another product to shopping cart")
     public void addAnotherProduct() {
         titles.add(addShoppingCart.productTitle.getText());
         addShoppingCart.addToCartBtn.click();

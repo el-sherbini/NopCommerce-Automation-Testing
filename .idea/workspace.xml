@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="62ac0872-b90f-424e-9b21-2fad0acd0e50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F09_AddShoppingCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F09_AddShoppingCart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD09_AddShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD09_AddShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD10_AddWishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD10_AddWishlist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: F09_AddShoppingCart">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Logged user add different products to Wishlist">
     <configuration name="Feature: F01_Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" />
@@ -62,14 +65,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: F07_FilterColor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: F09_AddShoppingCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_FilterColor.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F09_AddShoppingCart.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppAutomationTesting" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F07_FilterColor" />
+      <option name="SUGGESTED_NAME" value="Feature: F09_AddShoppingCart" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: F09_AddShoppingCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Logged user add different products to Wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F09_AddShoppingCart.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F10_AddWishlist.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppAutomationTesting" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F09_AddShoppingCart" />
+      <option name="NAME_FILTER" value="^Logged user add different products to Wishlist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logged user add different products to Wishlist$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Logged user add different products to Wishlist" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Logged user add different products to Wishlist" />
+        <item itemvalue="Cucumber Java.Feature: F01_Registration" />
         <item itemvalue="Cucumber Java.Feature: F09_AddShoppingCart" />
         <item itemvalue="Cucumber Java.Scenario: Logged user select different tags" />
-        <item itemvalue="Cucumber Java.Feature: F01_Registration" />
         <item itemvalue="Cucumber Java.Scenario: Logged user filter with color" />
-        <item itemvalue="Cucumber Java.Feature: F07_FilterColor" />
       </list>
     </recent_temporary>
   </component>
