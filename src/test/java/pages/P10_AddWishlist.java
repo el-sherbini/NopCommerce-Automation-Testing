@@ -14,21 +14,21 @@ public class P10_AddWishlist {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "(//button[@class=\"button-2 add-to-wishlist-button\"])[2]")
+    @FindBy(xpath = "(//div[@class=\"item-box\"]//button[@class=\"button-2 add-to-wishlist-button\"])[2]")
     public WebElement addToWishlistBtn;
 
-    @FindBy(xpath = "(//h2[@class=\"product-title\"])[2]//a")
+    @FindBy(xpath = "(//div[@class=\"item-box\"]//h2[@class=\"product-title\"])[2]//a")
     public WebElement productTitle;
 
     @FindBy(id = "add-to-wishlist-button-4")
     public WebElement addToWishlistPageBtn;
 
-    @FindBy(className = "wishlist-label")
+    @FindBy(xpath = "//a[@href=\"/wishlist\"]")
     public WebElement wishlistBtn;
 
-    @FindBy(xpath = "//div[@class=\"product\"]//a")
-    public WebElement firstCartProduct;
+    @FindBy(xpath = "//td[@class=\"product\"]//a")
+    public WebElement firstWishlistProduct;
 
-    @FindBy(xpath = "(//div[@class=\"product\"]//a)[2]")
-    public WebElement secondCartProduct;
+    @FindBy(xpath = "(//td[@class=\"product\"]//a)[2]")
+    public WebElement secondWishlistProduct;
 }
