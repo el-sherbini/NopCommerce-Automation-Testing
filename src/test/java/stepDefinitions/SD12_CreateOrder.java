@@ -12,16 +12,9 @@ public class SD12_CreateOrder {
     P12_CreateOrder createOrder = new P12_CreateOrder(Hooks.driver);
     String title = "";
 
-    @When("user add a product")
-    public void addProductToCart() throws InterruptedException {
-        title = createOrder.productTitle.getText();
-        createOrder.addToCartBtn.click();
-        Thread.sleep(1000);
-        createOrder.shoppingCartBtn.click();
-    }
-
     @And("user accept the terms of service")
     public void acceptTerms() {
+        title = createOrder.productTitle.getText();
         createOrder.termsBtn.click();
     }
 
@@ -51,7 +44,7 @@ public class SD12_CreateOrder {
         createOrder.paymentMethodBtn.click();
         Thread.sleep(1000);
         createOrder.paymentInformationBtn.click();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
     }
 
     @And("user confirm the order")
@@ -59,7 +52,7 @@ public class SD12_CreateOrder {
         createOrder.confirmBtn.click();
         Thread.sleep(1000);
         createOrder.orderDetailsBtn.click();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
     }
 
     @Then("user create a successful order")

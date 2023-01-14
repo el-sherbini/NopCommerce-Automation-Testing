@@ -5,7 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62ac0872-b90f-424e-9b21-2fad0acd0e50" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_SearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_SearchProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_SwitchCurrencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_SwitchCurrencies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_SelectCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_SelectCategories.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_FilterColor.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F07_FilterColor.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_SelectTag.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F08_SelectTag.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F09_AddShoppingCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F09_AddShoppingCart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F10_AddWishlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F10_AddWishlist.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F11_AddCompareList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F11_AddCompareList.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F12_CreateOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F12_CreateOrder.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/P09_AddShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/P09_AddShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/P12_CreateOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/P12_CreateOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/testRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/testRunners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD02_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD02_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD03_ResetPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD03_ResetPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD04_SearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD04_SearchProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD05_SwitchCurrencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD05_SwitchCurrencies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD10_AddWishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD10_AddWishlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD11_AddCompareList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD11_AddCompareList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD12_CreateOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD12_CreateOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F01_Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F01_Registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F02_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F04_SearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F04_SearchProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F05_SwitchCurrencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F05_SwitchCurrencies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F06_SelectCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F06_SelectCategories.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F07_FilterColor.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F07_FilterColor.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F08_SelectTag.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F08_SelectTag.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F09_AddShoppingCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F09_AddShoppingCart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F10_AddWishlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F10_AddWishlist.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F11_AddCompareList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F11_AddCompareList.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F12_CreateOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F12_CreateOrder.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/P09_AddShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/P09_AddShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/P12_CreateOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/P12_CreateOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/testRunners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/testRunners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD02_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD02_Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD03_ResetPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD03_ResetPassword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD04_SearchProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD04_SearchProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD05_SwitchCurrencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD05_SwitchCurrencies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD10_AddWishlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD10_AddWishlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD11_AddCompareList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD11_AddCompareList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD12_CreateOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD12_CreateOrder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +85,10 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User create successful Order">
+  <component name="RunManager" selected="JUnit.testRunners">
     <configuration name="Feature: F01_Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" />
@@ -55,45 +97,6 @@
       <module name="E-commerceAppAutomationTesting" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: F01_Registration" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: F09_AddShoppingCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F09_AddShoppingCart.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="E-commerceAppAutomationTesting" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F09_AddShoppingCart" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Logged user add different products to compare list" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F11_AddCompareList.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="E-commerceAppAutomationTesting" />
-      <option name="NAME_FILTER" value="^Logged user add different products to compare list$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logged user add different products to compare list$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Logged user add different products to compare list" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -125,6 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: User login with valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="E-commerceAppAutomationTesting" />
+      <option name="NAME_FILTER" value="^User login with valid data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User login with valid data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User login with valid data" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: User register with valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" />
@@ -145,13 +168,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="E-commerceAppAutomationTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.testRunners" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testRunners" />
+        <item itemvalue="Cucumber Java.Scenario: User login with valid data" />
         <item itemvalue="Cucumber Java.Scenario: User create successful Order" />
         <item itemvalue="Cucumber Java.Feature: F01_Registration" />
         <item itemvalue="Cucumber Java.Scenario: User register with valid data" />
-        <item itemvalue="Cucumber Java.Scenario: Logged user add different products to compare list" />
-        <item itemvalue="Cucumber Java.Feature: F09_AddShoppingCart" />
       </list>
     </recent_temporary>
   </component>

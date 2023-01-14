@@ -10,15 +10,15 @@ public class SD05_SwitchCurrencies {
     P05_SwitchCurrencies changeCurrencies = new P05_SwitchCurrencies(Hooks.driver);
 
     @When("user choose a currency from the dropdown on the top left")
-    public void changeCurrency() {
+    public void changeCurrency() throws InterruptedException {
         Select s = new Select(changeCurrencies.currencyDropdown);
-
-        if(changeCurrencies.selectedCurrency.getText().equals("Euro")) s.selectByVisibleText("US Dollar");
-        else s.selectByVisibleText("Euro");
+        s.selectByVisibleText("Euro");
+        Thread.sleep(2000);
     }
 
     @Then("user change currency and the price of products converts to the new currency symbol")
     public void checkCurrencyChanged() {
+        System.out.println(changeCurrencies.productPrice.getText());
         Assert.assertTrue(changeCurrencies.productPrice.getText().contains("€"));
     }
 }

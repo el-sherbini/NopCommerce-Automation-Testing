@@ -20,7 +20,7 @@ public class SD01_Registration {
     public void enterValidData() {
         register.firstNameTxtFld.sendKeys("mohamed");
         register.lastNameTxtFld.sendKeys("emad");
-        register.emailTxtFld.sendKeys("mEmad@gmail.com");
+        register.emailTxtFld.sendKeys("m_emad@gmail.com");
         register.passwordTxtFld.sendKeys("123456");
         register.confirmPasswordTxtFld.sendKeys("123456");
     }

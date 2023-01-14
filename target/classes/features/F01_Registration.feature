@@ -1,3 +1,5 @@
+@regression
+
 Feature: User could register with valid data
 
   Scenario: User register with valid data

@@ -1,10 +1,9 @@
+@regression
+
 Feature: User could create successful Order
 
   Scenario: User create successful Order
-    Given user navigates to login page
-    And user enters email "mEmad@gmail.com" and password "123456"
-    And user click on login button
-    When user add a product
+    When user navigate to shopping cart page
     And user accept the terms of service
     And user click on checkout button
     And user fill the billing address data

@@ -14,7 +14,7 @@ public class P12_CreateOrder {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "(//h2[@class=\"product-title\"]//a)[3]")
+    @FindBy(xpath = "//td[@class=\"product\"]//a")
     public WebElement productTitle;
 
     @FindBy(xpath = "(//div[@class=\"add-info\"]//button[@class=\"button-2 product-box-add-to-cart-button\"])[3]")

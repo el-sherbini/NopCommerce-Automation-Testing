@@ -16,6 +16,7 @@ public class SD10_AddWishlist {
 
     @When("user add a product to wishlist")
     public void addProduct() throws InterruptedException {
+        Hooks.driver.get("https://demo.nopcommerce.com");
         titles.add(addWishlist.productTitle.getText());
         addWishlist.addToWishlistBtn.click();
         Thread.sleep(1000);

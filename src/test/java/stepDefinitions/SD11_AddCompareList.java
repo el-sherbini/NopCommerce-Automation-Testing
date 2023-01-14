@@ -16,6 +16,7 @@ public class SD11_AddCompareList {
 
     @When("user add two products to compare list")
     public void addProduct() throws InterruptedException {
+        Hooks.driver.get("https://demo.nopcommerce.com");
         titles.add(addComparingList.productTitle.getText());
         titles.add(addComparingList.productTitle2.getText());
         addComparingList.addToComparingListBtn.click();

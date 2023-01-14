@@ -14,10 +14,10 @@ public class P09_AddShoppingCart {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "(//div[@class=\"item-box\"]//button[@class=\"button-2 product-box-add-to-cart-button\"])[2]")
+    @FindBy(xpath = "(//div[@class=\"item-box\"]//button[@class=\"button-2 product-box-add-to-cart-button\"])[3]")
     public WebElement addToCartBtn;
 
-    @FindBy(xpath = "(//div[@class=\"item-box\"]//h2[@class=\"product-title\"])[2]//a")
+    @FindBy(xpath = "(//div[@class=\"item-box\"]//h2[@class=\"product-title\"])[3]//a")
     public WebElement productTitle;
 
     @FindBy(id = "add-to-cart-button-4")

@@ -17,6 +17,6 @@ public class SD04_SearchProduct {
 
     @Then("user got relative result of product searched for {string}")
     public void searchSuccessfully(String product) {
-        Assert.assertEquals(product, searchProduct.productTitleTxt);
+        Assert.assertEquals(product, searchProduct.productTitleTxt.getText());
     }
 }

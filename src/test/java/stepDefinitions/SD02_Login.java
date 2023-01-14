@@ -29,6 +29,7 @@ public class SD02_Login {
 
     @Then("user log in successfully") @And("user go to home page")
     public void loginSuccessfully() {
+        Assert.assertEquals(Hooks.driver.getCurrentUrl(), "https://demo.nopcommerce.com/");
         Assert.assertTrue(login.logoutBtn.isDisplayed());
     }
 }

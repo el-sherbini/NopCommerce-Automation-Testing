@@ -17,7 +17,7 @@ public class SD03_ResetPassword {
 
     @When("user enters valid email")
     public void enterValidEmail() {
-        resetPassword.emailTxtFld.sendKeys("test2@gmail.com");
+        resetPassword.emailTxtFld.sendKeys("m_emad@gmail.com");
     }
 
     @And("user click on recover button")
