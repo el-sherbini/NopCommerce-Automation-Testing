@@ -6,48 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="62ac0872-b90f-424e-9b21-2fad0acd0e50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Registration.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_SearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_SearchProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_SwitchCurrencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_SwitchCurrencies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_SelectCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_SelectCategories.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_FilterColor.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F07_FilterColor.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_SelectTag.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F08_SelectTag.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F09_AddShoppingCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F09_AddShoppingCart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F10_AddWishlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F10_AddWishlist.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F11_AddCompareList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F11_AddCompareList.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F12_CreateOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F12_CreateOrder.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/P09_AddShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/P09_AddShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/P12_CreateOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/P12_CreateOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/testRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/testRunners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD02_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD02_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD03_ResetPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD03_ResetPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD04_SearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD04_SearchProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD05_SwitchCurrencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD05_SwitchCurrencies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD10_AddWishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD10_AddWishlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD11_AddCompareList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD11_AddCompareList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD12_CreateOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SD12_CreateOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F01_Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F01_Registration.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F02_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F04_SearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F04_SearchProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F05_SwitchCurrencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F05_SwitchCurrencies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F06_SelectCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F06_SelectCategories.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F07_FilterColor.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F07_FilterColor.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F08_SelectTag.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F08_SelectTag.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F09_AddShoppingCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F09_AddShoppingCart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F10_AddWishlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F10_AddWishlist.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F11_AddCompareList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F11_AddCompareList.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F12_CreateOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F12_CreateOrder.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/P09_AddShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/P09_AddShoppingCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/P12_CreateOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/P12_CreateOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/testRunners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/testRunners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD02_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD02_Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD03_ResetPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD03_ResetPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD04_SearchProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD04_SearchProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD05_SwitchCurrencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD05_SwitchCurrencies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD10_AddWishlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD10_AddWishlist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD11_AddCompareList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD11_AddCompareList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD12_CreateOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/SD12_CreateOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cukes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cukes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +47,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.testRunners">
